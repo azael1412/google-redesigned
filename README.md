@@ -12,7 +12,7 @@ Si quieres ver la demo de este proyecto desplegado, puedes visitar [Demo del pro
 - Media queries
 
 ### JS
-- Para manipulacion del dom cambiando algunos elementos dendiendo del tema seleccionado o del cual tenga el sistema operativo o navegador por defecto.
+- Para manipulación del dom cambiando algunos elementos dependiendo del tema seleccionado o del cual tenga el sistema operativo o navegador por defecto.
 
 ## Otras Herramientas
 - Font Awesome
@@ -21,7 +21,7 @@ Si quieres ver la demo de este proyecto desplegado, puedes visitar [Demo del pro
 ## Modo Oscuro
 
 ## Desktop
-<img width="400px"  src="https://raw.githubusercontent.com/azael1412/google-redesigned/main/img/tablet-dark.png" />
+<img width="400px"  src="https://raw.githubusercontent.com/azael1412/google-redesigned/main/img/desktop-dark.png" />
 
 ## Tablet
 <img width="400px"  src="https://raw.githubusercontent.com/azael1412/google-redesigned/main/img/tablet-dark.png" />
@@ -32,7 +32,7 @@ Si quieres ver la demo de este proyecto desplegado, puedes visitar [Demo del pro
 ## Modo Claro
 
 ## Desktop
-<img width="400px"  src="https://raw.githubusercontent.com/azael1412/google-redesigned/main/img/tablet-light.png" />
+<img width="400px"  src="https://raw.githubusercontent.com/azael1412/google-redesigned/main/img/desktop-light.png" />
 
 ## Tablet
 <img width="400px"  src="https://raw.githubusercontent.com/azael1412/google-redesigned/main/img/tablet-light.png" />
