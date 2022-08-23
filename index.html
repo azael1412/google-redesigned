@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/31e22c32d1.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <div class="loader" id="loader">
+    </div>
+   <div class="page-wrapper" id="page-wrapper">
+    <header class="header">
+        <i class="fas fa-sun" onclick="changeTheme()" id="btn-theme" aria-label="change theme"></i>
+        <img src="img/apps-light.png" alt="apps" id="icon-app" width="55" height="55" aria-label="apps">
+        <img src="img/profile.png" alt="profile" width="55" height="55" aria-label="profile">
+    </header>
+    <main class="main container">
+        <img src="img/color-logo.png" alt="logo">
+        <div class="searchbar">
+                <i class="fa fa-search"></i>
+                <input type="text" class="searchbar-input" maxlength="2048" name="q" autocapitalize="off" autocomplete="off" title="Search" role="combobox" placeholder="Search for anything">
+                <i class="fas fa-microphone"></i>
+         </div>
+        <div class="group-btn">
+            <button type="button" aria-label="google search">Google Search</button>
+            <button type="button" aria-label="im feeling lucky">I’m feeling lucky</button>
+        </div>
+    </main>
+    <section class="weather">
+       <div class="weather-content container">
+        <img src="img/where-you-are.png" alt="Where you are" id="where-you-are" width="140" height="50">
+       </div>
+    </section>
+    <footer class="footer footer-fixed" id="footer">
+        <div class="footer-menu container">
+            <div class="footer-menu-left">
+                <a href="#about">about</a>
+                <a href="#advertising">advertising</a>
+                <a href="#business">business</a>
+                <a href="#how-search-works">How Search works</a>
+            </div>
+            <div class="footer-menu-right">
+                <a href="#privacy">privacy</a>
+                <a href="#terms">Terms</a>
+                <a href="#settings">settings</a>
+            </div>
+        </div>
+    </footer>
+   </div>
+<script src="js/app.js"></script>
+</body>
+</html>
