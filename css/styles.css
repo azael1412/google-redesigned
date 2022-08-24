@@ -32,8 +32,13 @@
     color:var(--primary);
 }
 
-.header img:hover, #btn-theme:hover {
-    transform:scale(.9);
+@media (min-width: 768px) { 
+    .fa-sun,.fa-moon {
+        transition: transform 0.3s ease-in-out;
+    }
+    .header img:hover, #btn-theme:hover {
+        transform:scale(.9);
+    }
 }
 
 .header img:last-of-type {
@@ -44,7 +49,8 @@
     .header img:last-of-type {
         margin-right: 5rem;
     }
-} 
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -52,8 +58,10 @@
     align-items: center;
     margin-top:14.2rem;
 }
+
 .main img {
     margin-bottom: 4.1rem;
+    cursor: pointer;
 }
 
 .searchbar {
@@ -76,10 +84,12 @@
     position:absolute;
     font-size:3rem;
 }
+
 .searchbar .fa-search {
     top:.5rem;
     left:1rem;
 }
+
 .searchbar .fa-microphone {
     top:.5rem;
     right:1rem;
@@ -112,14 +122,6 @@
     width: 100%;
 }
 
-@media (min-width: 768px) { 
-    .group-btn {
-        flex-direction: row;
-        justify-content:center;
-        align-items: flex-start;
-    }
-}
-
 .group-btn button {
     all:unset;
     text-align: center;
@@ -133,8 +135,20 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.group-btn button:hover {
-    transform:scale(.9)
+@media (min-width: 480px) { 
+    .group-btn {
+        flex-direction: row;
+        justify-content:center;
+        align-items: flex-start;
+    }
+
+    .group-btn button {
+        width: 20rem;
+    }
+
+    .group-btn button:first-of-type {
+        margin: 0 2rem 0 0;
+    }
 }
 
 .group-btn button:first-of-type {
@@ -154,14 +168,20 @@
     }
     .group-btn button {
         width: 21.6rem;
+        transition: transform 0.3s ease-in-out;
     }
-    .group-btn button:first-of-type {
+    /* .group-btn button:first-of-type {
         margin: 0 2rem 0 0;
+    } */
+    .group-btn button:hover {
+        transform:scale(.9)
     }
 }
+
 .weather {
     margin: 2rem 0;
 }
+
 @media (min-width: 768px) {
     .weather {
         position:fixed;
@@ -170,14 +190,15 @@
         width:100%;
     }
 }
-@media screen and (max-height:768px) and (min-width: 768px)  {
+
+@media screen and (min-width: 768px) and (max-height:768px)  {
     .weather {
         position:static;
         margin-bottom:10rem;
     }
 }
 
-@media screen and (min-height:800px) and (min-width: 1024px)  {
+@media screen and (min-width: 1024px) and (min-height:800px){
     .weather {
         position:fixed;
         left:0;
@@ -208,7 +229,7 @@
 }
 
 
-@media screen and (min-height:892px) and (min-width: 333px)  { 
+@media screen and (min-width: 333px) and  (min-height:892px) { 
     .footer-fixed {
         position:fixed;
         left:0;

@@ -9,6 +9,7 @@
 /* * {
     border: 1px solid red;
 } */
+
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -25,11 +26,13 @@ body {
     color:var(--black);
     padding-top:3.8rem;
 }
+
 @media (min-width: 768px) { 
     body {
         padding-top:4.2rem;
     }
 }
+
 .dark-mode {
     background-color: #161d29;
     color: var(--greyBlue);
@@ -44,8 +47,8 @@ body {
 img {
     max-width: 100%;
     display: block;
-    cursor: pointer;
 }
+
 a {
     text-decoration: none;
 }
